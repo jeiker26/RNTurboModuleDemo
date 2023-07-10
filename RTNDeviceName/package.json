@@ -7,25 +7,14 @@
   "files": [
     "js",
     "android",
-    "rtn-device.podspec",
-    "!android/build",
-    "!ios/build",
-    "!**/__tests__",
-    "!**/__fixtures__",
-    "!**/__mocks__"
+    "!android/build"
   ],
   "keywords": [
     "react-native",
-    "ios",
     "android"
   ],
-  "repository": "https://github.com/<your_github_handle>/rtn-device",
-  "author": "<Your Name> <your_email@your_provider.com> (https://github.com/<your_github_handle>)",
+  "author": "Anisha Malde <anishapm@amazon.com> (https://github.com/anishamalde)",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/<your_github_handle>/rtn-device/issues"
-  },
-  "homepage": "https://github.com/<your_github_handle>/rtn-device#readme",
   "devDependencies": {},
   "peerDependencies": {
     "react": "*",

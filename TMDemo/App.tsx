@@ -9,14 +9,11 @@ const App: () => JSX.Element = () => {
   return (
     <SafeAreaView>
       <StatusBar barStyle={'dark-content'} />
-      <Text style={{marginLeft: 20, marginTop: 20}}>
-        {result ?? 'Whats my device?'}
-      </Text>
+      <Text style={{margin: 20}}>{result ?? 'Whats my device model?'}</Text>
       <Button
-        title="Compute"
+        title="Tell me!"
         onPress={async () => {
           const value = await RTNDeviceName?.getDeviceModel();
-          console.log(value);
           setResult(value ?? null);
         }}
       />
